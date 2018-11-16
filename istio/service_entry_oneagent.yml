@@ -6,14 +6,14 @@ metadata:
 spec:
   hosts:
   - pli18213.live.dynatrace.com
-   - sg-us-west-2-54-191-195-87-prod-us-west-2-oregon.live.ruxit.com
-   - sg-us-west-2-35-155-216-1-prod-us-west-2-oregon.live.ruxit.com
-   - sg-us-west-2-54-69-116-21-prod-us-west-2-oregon.live.ruxit.com 
-   - sg-us-west-2-54-213-205-48-prod-us-west-2-oregon.live.ruxit.com
-   - sg-us-west-2-34-211-171-253-prod-us-west-2-oregon.live.ruxit.com
-   - sg-us-west-2-54-213-211-21-prod-us-west-2-oregon.live.ruxit.com
-   - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
-   - sg-us-west-2-34-223-233-242-prod-us-west-2-oregon.live.ruxit.com 
+  - sg-us-west-2-54-191-195-87-prod-us-west-2-oregon.live.ruxit.com
+  - sg-us-west-2-35-155-216-1-prod-us-west-2-oregon.live.ruxit.com
+  - sg-us-west-2-54-69-116-21-prod-us-west-2-oregon.live.ruxit.com 
+  - sg-us-west-2-54-213-205-48-prod-us-west-2-oregon.live.ruxit.com
+  - sg-us-west-2-34-211-171-253-prod-us-west-2-oregon.live.ruxit.com
+  - sg-us-west-2-54-213-211-21-prod-us-west-2-oregon.live.ruxit.com
+  - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
+  - sg-us-west-2-34-223-233-242-prod-us-west-2-oregon.live.ruxit.com 
   location: MESH_EXTERNAL
   ports:
   - number: 443
@@ -36,7 +36,6 @@ spec:
   - sg-us-west-2-54-213-211-21-prod-us-west-2-oregon.live.ruxit.com
   - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
   - sg-us-west-2-34-223-233-242-prod-us-west-2-oregon.live.ruxit.com
- 
   tls:
   - match:
     - port: 443
